@@ -24,7 +24,7 @@ class ViewController: UIViewController, Coordinating {
     }
     
     @objc func didTapButton () {
-        coordinator?.eventOcurred(with: .buttonTapped)
+        coordinator?.eventOcurred(with: .secondViewControler)
     }
 
 }

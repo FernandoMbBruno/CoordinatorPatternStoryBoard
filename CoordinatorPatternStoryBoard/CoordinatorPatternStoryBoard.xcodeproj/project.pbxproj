@@ -16,6 +16,7 @@
 		C51B537B29C01029001732BB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B537A29C01029001732BB /* Coordinator.swift */; };
 		C51B537D29C010B1001732BB /* mainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B537C29C010B1001732BB /* mainCoordinator.swift */; };
 		C51B537F29C01354001732BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B537E29C01354001732BB /* SecondViewController.swift */; };
+		C51B538129C01671001732BB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51B538029C01671001732BB /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C51B537A29C01029001732BB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C51B537C29C010B1001732BB /* mainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainCoordinator.swift; sourceTree = "<group>"; };
 		C51B537E29C01354001732BB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C51B538029C01671001732BB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +67,14 @@
 				C51B535629C00490001732BB /* AppDelegate.swift */,
 				C51B535829C00490001732BB /* SceneDelegate.swift */,
 				C51B535A29C00490001732BB /* ViewController.swift */,
+				C51B537E29C01354001732BB /* SecondViewController.swift */,
+				C51B538029C01671001732BB /* ThirdViewController.swift */,
+				C51B537C29C010B1001732BB /* mainCoordinator.swift */,
+				C51B537A29C01029001732BB /* Coordinator.swift */,
 				C51B535C29C00490001732BB /* Main.storyboard */,
 				C51B535F29C00493001732BB /* Assets.xcassets */,
 				C51B536129C00493001732BB /* LaunchScreen.storyboard */,
 				C51B536429C00493001732BB /* Info.plist */,
-				C51B537A29C01029001732BB /* Coordinator.swift */,
-				C51B537C29C010B1001732BB /* mainCoordinator.swift */,
-				C51B537E29C01354001732BB /* SecondViewController.swift */,
 			);
 			path = CoordinatorPatternStoryBoard;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				C51B537F29C01354001732BB /* SecondViewController.swift in Sources */,
 				C51B537D29C010B1001732BB /* mainCoordinator.swift in Sources */,
 				C51B537B29C01029001732BB /* Coordinator.swift in Sources */,
+				C51B538129C01671001732BB /* ThirdViewController.swift in Sources */,
 				C51B535B29C00490001732BB /* ViewController.swift in Sources */,
 				C51B535729C00490001732BB /* AppDelegate.swift in Sources */,
 				C51B535929C00490001732BB /* SceneDelegate.swift in Sources */,

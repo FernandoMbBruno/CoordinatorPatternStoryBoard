@@ -8,8 +8,10 @@
 import Foundation
 import UIKit
 
+// Creating a enum to call to the next View
 enum Event {
-    case buttonTapped
+    case secondViewControler
+    case thirdViewController
 }
 
 protocol Coordinator {

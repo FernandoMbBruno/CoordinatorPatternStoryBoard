@@ -15,7 +15,15 @@ class SecondViewController: UIViewController, Coordinating {
         super.viewDidLoad()
         title = "Seconds"
         view.backgroundColor = .brown
-        
-        
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 220, height: 50))
+        view.addSubview(button)
+        button.center = view.center
+        button.backgroundColor = .systemRed
+        button.setTitleColor(.white, for: .normal)
+        button.addTarget(self, action: #selector(goesToThirdView), for: .touchUpInside)
+    }
+    
+    @objc func goesToThirdView() {
+        coordinator?.eventOcurred(with: .thirdViewController)
     }
 }
